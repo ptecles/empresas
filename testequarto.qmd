@@ -1,0 +1,123 @@
+---
+title: "Análise de acordos no nível de firmas"
+author: ""
+format: revealjs
+editor: visual
+---
+
+## Artigo
+
+**"Learning by Using Free Trade Agreements:**
+
+A firm and transaction-level analysis of the EU--South Korea FTA"
+
+National Board of Trade Sweden, 2022
+
+[Link do artigo](https://www.kommerskollegium.se/globalassets/publikationer/rapporter/2022/learning-by-using-free-trade-agreements-a-firm-and-transaction-level-analysis.pdf){.uri}
+
+## Motivação
+
+-   Custos como regra de origem podem desencentivar o uso do acordo
+-   Kasteng e Inama (2018): 33% das exportações e 10% das importações da UE não se beneficiaram das reduções tarifárias de acordos existentes
+-   Análise do acordo UE - Coréia do Sul, que entrou em vigor em julho de 2011
+-   Foco na utilização das preferências tarifárias na Suécia
+
+## Motivação
+
+-   Com que rapidez as empresas aprendem a fazer uso das preferências tarifárias?
+
+-   Qual é a taxa de sobrevivência das empresas importadoras ao longo do tempo e como isso afeta a utilização das preferências tarifárias?
+
+-   Qual é a relação entre o tempo e as repetidas transações de importação para a utilização das preferências tarifárias?
+
+## Dados
+
+-   Transações de importação de empresas suecas originárias da Coreia do Sul entre 2008 e 2018
+
+-   Cerca de 1 milhão de transações de importação realizadas por 8.500 empresas
+
+-   Nome da empresa e número de identificação do importador, nome da empresa exportadora, valor da importação, códigos tarifários a 10 dígitos, modo de importação (importações diretas versus entreposto aduaneiro) e tarifas alfandegárias
+
+## Dados
+
+-   Mais de uma observação tempo-empresa, o que dificulta métodos de painel
+
+-   Dados de 6445 firmas: empregados, receita, lucro, grupo e setor
+
+-   Deflator de preços do produtor e de importação
+
+## Definições
+
+Quanto empresas utilizam as preferências tarifárias?
+
+-   Taxa de utilização de preferência (PUR): o valor das importações preferenciais como parcela do valor de importação elegível de preferência
+
+-   Taxa de economia com preferência (PSR): o valor da economia de impostos pela utilização de preferências como uma parcela das economias de impostos potenciais
+
+-   A taxa de economia é construída utilizando o valor das importações e a margem preferencial, enquanto a taxa de utilização considera apenas o valor das importações
+
+## Tempo de aprendizado
+
+![](images/Screen%20Shot%202022-08-18%20at%2008.46.17.png)
+
+## Tempo de Aprendizado - margem extensiva
+
+![](images/Screen%20Shot%202022-08-18%20at%2009.02.13.png)
+
+## Entrantes
+
+![](images/Screen%20Shot%202022-08-18%20at%2009.12.22.png)
+
+## Taxa de sobrevivência
+
+-   Antes do acordo, a taxa de sobrevivência de um ano de novos fluxos empresa-país era de 60%
+
+-   Nos primeiros anos do acordo, a taxa de sobrevivência caiu para 56% e chegou a 43% após sete anos
+
+-   Pode ser que empresas pequenas e menos experientes entram no comércio em busca de fornecedores
+
+## Aprendizado coletivo
+
+![](images/Screen%20Shot%202022-08-18%20at%2011.24.34.png)
+
+## Importadores contínuos
+
+## ![](images/Screen%20Shot%202022-08-18%20at%2011.31.39.png)
+
+## Importadores Contínuos
+
+![](images/Screen%20Shot%202022-08-18%20at%2011.33.52.png)
+
+## Aprendizado
+
+![](images/Screen%20Shot%202022-08-18%20at%2011.35.01.png)
+
+## Aprendizado
+
+![](images/Screen%20Shot%202022-08-18%20at%2011.47.31.png)
+
+## Aprendizado
+
+![](images/Screen%20Shot%202022-08-18%20at%2011.52.25.png)
+
+## Aprendizado por tamanho
+
+![](images/Screen%20Shot%202022-08-18%20at%2011.56.21.png)
+
+## Regressão logit:
+
+$\ln (\frac{p_{ijkt}}{1-p_{ijkt}})=X_{ijkt}\beta +\mu_k + \gamma_t + \varepsilon_{ijkt}$
+
+-   $p_{ijkt}$ é a probabilidade de uso da preferência tarifária na transação i, da firma j, no setor k, e tempo t.
+
+## Regressão logit:
+
+![](images/Screen%20Shot%202022-08-18%20at%2015.11.44.png)
+
+## Regressão logit
+
+![](images/Screen%20Shot%202022-08-18%20at%2015.35.52.png)
+
+## Learning by doing
+
+![](images/Screen%20Shot%202022-08-18%20at%2015.39.38.png)
